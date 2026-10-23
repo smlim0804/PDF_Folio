@@ -8,10 +8,18 @@ A fast, lightweight document app for macOS — view, edit, sign and convert PDFs
 
 ## 다운로드
 
-[최신 릴리스](../../releases/latest)에서 `Folio-<버전>-mac-arm64.zip`을 받아 압축을 풀고 `Folio.app`을 응용 프로그램 폴더로 옮기세요. (Apple Silicon Mac, macOS 12 이상)
+[최신 릴리스](../../releases/latest)에서 내 컴퓨터에 맞는 파일을 받으세요. 한 번 설치하면 새 버전이 나올 때 앱 안에서 알림이 뜨고, **업데이트** 버튼으로 바로 업데이트돼요.
 
-> 처음 열 때: 개발자 서명이 없는 앱이라 macOS가 막을 수 있어요. `Folio.app`을 **우클릭 → 열기 → 열기**로 한 번 열면 다음부터는 바로 열려요.
-> "손상되었기 때문에 열 수 없습니다"가 뜨면 터미널에서 `xattr -cr /Applications/Folio.app` 를 한 번 실행하세요.
+### macOS (Apple Silicon, macOS 12 이상)
+1. `Folio-<버전>-mac-arm64.zip`을 받아 압축을 풀고 `Folio.app`을 **응용 프로그램** 폴더로 옮겨요.
+2. 처음 열 때: 개발자 서명이 없는 앱이라 macOS가 막을 수 있어요. `Folio.app`을 **우클릭 → 열기 → 열기**로 한 번 열면 다음부터는 바로 열려요.
+   "손상되었기 때문에 열 수 없습니다"가 뜨면 터미널에서 `xattr -cr /Applications/Folio.app`을 한 번 실행하세요.
+
+### Windows (10/11, 64비트)
+1. `Folio-<버전>-win-x64.zip`을 받아 원하는 곳(예: `C:\Users\<이름>\Folio`)에 압축을 풀어요.
+2. 폴더 안의 `Folio.exe`를 실행해요. 바탕화면이나 작업 표시줄에 고정해 두면 편해요.
+3. "Windows의 PC 보호" 창이 뜨면 **추가 정보 → 실행**을 누르세요(서명이 없는 앱이라 처음 한 번 떠요).
+4. 파일을 Folio로 열려면 파일 우클릭 → **연결 프로그램 → 다른 앱 선택 → Folio.exe**를 고르세요.
 
 ## 기능
 
